@@ -1,0 +1,3 @@
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/cmake-build-debug/CMakeFiles/avancando_com_cpp_enum_templates.dir
