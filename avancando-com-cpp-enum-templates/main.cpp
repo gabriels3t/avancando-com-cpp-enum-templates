@@ -18,14 +18,14 @@ void ExibirSaldo(const Conta& conta) {
     conta.sacar(200);
 }*/
 
-void fazLogin(Autenticavel& alguem,string senha){
+/*void fazLogin(Autenticavel& alguem,string senha){
     if(alguem.autentica(senha)){
         cout <<"Login realizado com sucesso"<< endl;
     }else{
         cout << "senha invalida" << endl;
     }
 }
-
+*/
 int main()
 {
     //ContaPoupanca* umaconta = new ContaPoupanca("48931-5", Titular(Cpf("163.897.000-91"), "jorge"));
