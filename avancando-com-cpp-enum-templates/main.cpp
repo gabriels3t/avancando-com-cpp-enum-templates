@@ -1,11 +1,13 @@
 #include <iostream>
-//#include <string>
+#include <string>
 #include "Conta.hpp"
 #include "ContaPoupanca.hpp"
 #include "ContaCorrente.hpp"
 #include "Titular.hpp"
 #include "Cpf.hpp"
-//#include "Funcionario.hpp"
+#include "Funcionario.hpp"
+#include "Gerente.hpp"
+#include "DiaDaSemana.hpp"
 using namespace std;
 
 void ExibirSaldo(const Conta& conta) {
@@ -17,7 +19,7 @@ void ExibirSaldo(const Conta& conta) {
 /*void RealizarSaque(Conta& conta) {
     conta.sacar(200);
 }*/
-//teste
+
 /*void fazLogin(Autenticavel& alguem,string senha){
     if(alguem.autentica(senha)){
         cout <<"Login realizado com sucesso"<< endl;
@@ -47,4 +49,6 @@ int main()
 
     //Funcionario funcionario(Cpf("474.124.770-80"), "Jorge", 450.4);
     //cout << " Nome do funcionario " << funcionario.getNome() << endl;
+    Gerente umGerente(Cpf("000.000.000-54"), "Paulo ",1500,DiaDaSemana::Terca,"123456");
+
 }

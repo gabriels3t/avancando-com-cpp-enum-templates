@@ -118,6 +118,9 @@
 		<Unit filename="/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Cpf.hpp">
 			<Option target="avancando_com_cpp_enum_templates"/>
 		</Unit>
+		<Unit filename="/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/DiaDaSemana.hpp">
+			<Option target="avancando_com_cpp_enum_templates"/>
+		</Unit>
 		<Unit filename="/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Funcionario.cpp">
 			<Option target="avancando_com_cpp_enum_templates"/>
 		</Unit>

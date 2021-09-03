@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Autenticavel.cpp
-Autenticavel.hpp
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Autenticavel.hpp
-
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Autenticavel.hpp
 string
 -
@@ -21,12 +17,8 @@ Caixa.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Caixa.hpp
 Funcionario.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Funcionario.hpp
-
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Conta.cpp
-iostream
--
-Conta.hpp
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Conta.hpp
+DiaDaSemana.hpp
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/DiaDaSemana.hpp
 
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Conta.hpp
 string
@@ -34,33 +26,19 @@ string
 Titular.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Titular.hpp
 
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/ContaCorrente.cpp
-ContaCorrente.hpp
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/ContaCorrente.hpp
-
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/ContaCorrente.hpp
 Conta.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Conta.hpp
 
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/ContaPoupanca.cpp
-ContaPoupanca.hpp
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/ContaPoupanca.hpp
-iostream
--
-
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/ContaPoupanca.hpp
 Conta.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Conta.hpp
-
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Cpf.cpp
-Cpf.hpp
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Cpf.hpp
-iostream
--
 
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Cpf.hpp
 string
 -
+
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/DiaDaSemana.hpp
 
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Funcionario.cpp
 Funcionario.hpp
@@ -73,6 +51,8 @@ Cpf.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Cpf.hpp
 Pessoa.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Pessoa.hpp
+DiaDaSemana.hpp
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/DiaDaSemana.hpp
 
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Gerente.cpp
 Gerente.hpp
@@ -83,23 +63,13 @@ Funcionario.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Funcionario.hpp
 Autenticavel.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Autenticavel.hpp
-
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Pessoa.cpp
-Pessoa.hpp
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Pessoa.hpp
-iostream
--
+DiaDaSemana.hpp
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/DiaDaSemana.hpp
 
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Pessoa.hpp
 Cpf.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Cpf.hpp
 string
--
-
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Titular.cpp
-Titular.hpp
-/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Titular.hpp
-iostream
 -
 
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Titular.hpp
@@ -115,6 +85,8 @@ Autenticavel.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/main.cpp
 iostream
 -
+string
+-
 Conta.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Conta.hpp
 ContaPoupanca.hpp
@@ -125,4 +97,10 @@ Titular.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Titular.hpp
 Cpf.hpp
 /home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Cpf.hpp
+Funcionario.hpp
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Funcionario.hpp
+Gerente.hpp
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/Gerente.hpp
+DiaDaSemana.hpp
+/home/gabriels3t/Estudo-Cpp/avancando-com-cpp-enum-templates/avancando-com-cpp-enum-templates/DiaDaSemana.hpp
 
