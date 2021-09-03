@@ -24,4 +24,6 @@ public:
     static int getNumeroDeContas();
     virtual float taxaSaque() const =0;  // pode-se ser definito na classe pai quanto filha
     // quando recebe o = 0 quer dizer que nessa classe nao foi implementado. mas sim nas herdeiras
+    void operator+=(float valorADepositar);  // para sobreescever um operador
+    friend std::ostream& operator<<(std::ostream& cout, const Conta& conta); // Função externa que tem acesso a todos os metodos
 };

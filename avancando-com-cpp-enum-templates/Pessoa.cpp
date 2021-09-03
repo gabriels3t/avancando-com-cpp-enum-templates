@@ -9,3 +9,7 @@ void Pessoa::verificaTamanhoDoNome() {
         exit(1);
     }
 }
+
+std::string Pessoa::getNome() const {
+    return this->nome;
+}

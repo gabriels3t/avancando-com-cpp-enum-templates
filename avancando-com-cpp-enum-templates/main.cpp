@@ -28,6 +28,14 @@ void ExibirSaldo(const Conta& conta) {
     }
 }
 */
+
+ostream& operator<<(ostream& cout, const Conta& conta){
+    Pessoa titular = conta.titular;
+    cout << "(operador )Seu saldo e de R$:" << conta.getSaldo() << endl;
+    cout<<"o titular da conta é : "<<titular.getNome() <<endl;
+    return cout;
+}
+
 int main()
 {
     //ContaPoupanca* umaconta = new ContaPoupanca("48931-5", Titular(Cpf("163.897.000-91"), "jorge"));
@@ -36,12 +44,16 @@ int main()
     //outraConta.sacar(200);
 
     ContaCorrente umaConta("4931-5", Titular(Cpf("163.897.000-91"), "gabriel","senha"));
-    umaConta.depositar(500);
-    //umaConta.tranferePara(outraConta,250);
     ContaCorrente outraContaCorrente("4491-5", Titular(Cpf("163.897.860-91"), "Thiago","1234"));
+    umaConta.depositar(500);
+    (Conta&) umaConta+=300; // assim passando como referencia a conta e nao a conta corrente
+    outraContaCorrente+= umaConta;
+    //umaConta.tranferePara(outraConta,250);
+
     //umaConta.sacar(200);
-    umaConta.tranferePara(outraContaCorrente,200);
-    ExibirSaldo(umaConta);
+    //umaConta.tranferePara(outraContaCorrente,200);
+    //ExibirSaldo(umaConta);
+    cout<<umaConta;
     ExibirSaldo(outraConta);
     ExibirSaldo(outraContaCorrente);
     // pode-se utilizar nomeDaClasse:: quando o metodo for estatico
